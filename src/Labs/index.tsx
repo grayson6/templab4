@@ -10,7 +10,7 @@ export default function Labs() {
   return (
     <div>
       <h1>Labs</h1>
-      <p> Name: Grayson Cooper</p>
+      <p> Name: Grayson Cooper; CS5610 FA24 Async Online </p>
       <TOC />
       <Routes>
         <Route path="/" element={<Navigate to="Lab1" />} />
