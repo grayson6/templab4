@@ -29,7 +29,7 @@ export default function Assignments() {
             A3 - JavaScript Basics
           </Link>
         </li>
-        {/* Add more assignments as needed */}
+
       </ul>
     </div>
   );

@@ -14,24 +14,24 @@ export default function Account() {
       <table>
         <tbody>
           <tr>
-            {/* Account Navigation Sidebar */}
+
             <td valign="top">
               <AccountNavigation />
             </td>
 
-            {/* Main Content Area */}
+
             <td valign="top">
               <Routes>
-                {/* Default route redirects to Signin */}
+
                 <Route path="/" element={<Navigate to="Signin" />} />
 
-                {/* Signin Route */}
+
                 <Route path="Signin" element={<Signin />} />
 
-                {/* Signup Route */}
+
                 <Route path="Signup" element={<Signup />} />
 
-                {/* Profile Route */}
+
                 <Route path="Profile" element={<Profile />} />
               </Routes>
             </td>

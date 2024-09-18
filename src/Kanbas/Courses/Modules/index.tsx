@@ -123,7 +123,7 @@ export default function Modules() {
           </ul>
         </li>
 
-        {/* Add more weeks as needed */}
+
       </ul>
     </div>
   );
