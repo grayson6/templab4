@@ -1,0 +1,68 @@
+#wd-courses-navigation {
+    width: 130px;
+    background-color: #f8f9fa;
+    height: 100vh;
+    position: fixed;
+    padding-top: 20px;
+  }
+  
+  .wd-main-content-offset {
+    margin-left: 110px; 
+    padding: 20px;
+  }
+  
+  .list-group.wd > .list-group-item.active {
+    color: black;
+    background-color: white;
+    border-left: 3px solid black !important;
+  }
+  
+  .list-group.wd > .list-group-item {
+    color: red;
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+  }
+  
+  .list-group.wd > .list-group-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  /* Active link background */
+  .list-group-item.active {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  /* Modules */
+  .btn-secondary {
+    --bs-btn-color: #000 !important;
+    --bs-btn-bg: #c7cdd1 !important;
+    --bs-btn-border-color: #c7cdd1 !important;
+    --bs-btn-hover-color: #fff !important;
+  }
+  
+  .bg-secondary {
+    --bs-secondary-rgb: 199, 205, 209;
+  }
+  
+  .list-group-item {
+    --bs-list-group-border-color: gray;
+  }
+  
+  .wd-lesson {
+    border-left: 3px solid green !important;
+  }
+  
+  /* Signin */
+  #wd-signin-screen h3 {
+    color: black !important;
+  }
+  
+  #wd-signup-link {
+    color: red !important;
+  }
+  
+  #wd-signup-link:hover {
+    color: darkred !important;
+  }
