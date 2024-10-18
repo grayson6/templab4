@@ -1,4 +1,3 @@
-
 import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 
@@ -60,8 +59,7 @@ export default function TOC() {
           </a>
         </li>
       </ul>
-    
-
+  
 
       <div id="wd-css-navigating-with-cards">
   <h2>
@@ -85,9 +83,6 @@ export default function TOC() {
   </div>
 </div>
 </div>
-
-
-
 
   );
 }
