@@ -7,19 +7,18 @@ export default function Home() {
   const [moduleName, setModuleName] = useState("");
 
   const addModule = () => {
-    
     console.log(`Adding module: ${moduleName}`);
-    
+    // You might need to lift state up or implement state management here
     setModuleName("");
   };
 
   return (
     <div>
       <div className="d-flex justify-content-between flex-wrap">
-        <ModulesControls 
-          moduleName={moduleName} 
-          setModuleName={setModuleName} 
-          addModule={addModule} 
+        <ModulesControls
+          moduleName={moduleName}
+          setModuleName={setModuleName}
+          addModule={addModule}
         />
       </div>
       <div className="d-flex flex-wrap">
@@ -33,6 +32,10 @@ export default function Home() {
     </div>
   );
 }
+
+
+
+
 // 11/6
 
 // import Modules from "../Modules";
